@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: 5aa09921990749148b38bd2ff6715a3b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 207
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23dc2cb89a699c4d815c105eb59ad25
+      internalID: 579942832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 206
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2548bd9d63ada44380d0fe7ca1d94bc
+      internalID: 1955430855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f839fdd371bf36d4bb334e95c9c0aeaf
+      internalID: 1408102511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 208
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d82982a7e0c504ea4fd8d075b1c5ad
+      internalID: 245047980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 208
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628ab38b982ca94a834384bed9722b2
+      internalID: -1443890197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 223
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74224dfb0f1843d41a9711722eabc869
+      internalID: 1810001300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 207
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a531f7dd4f034fbc6616fb9f043d0
+      internalID: 282653050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 207
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe0114bf52e6594eb91be39383af69d
+      internalID: 997359610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 207
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8ef4b20a9a0947b68bbfb037c7e79
+      internalID: -746193234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 222
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a409e0cf4d08649a3b74d24ba04098
+      internalID: 1524868778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 209
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a627c5c343a1849be4911064c5342b
+      internalID: 1690462249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 208
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3677fc3e62edb49b3f7e26b1c0f5bc
+      internalID: 1779803879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 208
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df5037569818274aafaab1f83f15513
+      internalID: -2087787281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 208
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a21ef1e444aa0842a123f12b098f5bd
+      internalID: -176207688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 173
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d09564d6bfb2c45a77562b96e69ea7
+      internalID: 506780005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 173
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691fba605a927de41bdc359dce5e2d80
+      internalID: -1685891942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 173
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d9eed921a188443861183dc0e8d3d4
+      internalID: -1733343015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 173
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10bf7a7539d2f8449edcd52f9e91125
+      internalID: 1476232289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 173
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d41978c77f3243912d28fcdf2b8bf
+      internalID: -266347821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 173
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e5843bcc0b8e4bba5a48fbdb6a80a
+      internalID: 249935845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 173
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820968967f2ae974f8b01ce28c8b2eb0
+      internalID: 609507844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 173
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa06b67a190c193459627dda5f7434a6
+      internalID: 874439206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 172
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3c5fb5f1e199d49a83df129ec1b854
+      internalID: 148568111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 172
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a16b8bd1641c6e4ebf58fbc7e1f611c
+      internalID: -1914082896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 173
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5145ca841059fba4eae73163573523f7
+      internalID: -1484631917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 173
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942eb1feb8cd5cb4f8afaa86bfd28b76
+      internalID: 418636654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 138
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c78e71604f68f48bde45b5e834489e
+      internalID: 1486658666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 138
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58846ea5e01bff24aae4076f8ba68089
+      internalID: 1019163693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 138
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2709fea7507d64cbbcce8f22877495
+      internalID: 639979725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 138
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa127130f012d9c4bbdf73fdc5ed4db8
+      internalID: 1856407830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 138
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbfa17ed13807e4d838ba2670462165
+      internalID: -679845716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 138
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba8b61661b82d4abebfdd7d2b4d7cc
+      internalID: 780452918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 138
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd227bc68ed67e447814e1f8987b23c8
+      internalID: -1131715365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 138
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2b09ed6b0fa3349b1da7505a2bf139
+      internalID: 871717614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 137
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b6dac0725c244a8eed656efe595dd
+      internalID: 991399102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 138
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512edb2d94d7b3b4a8c0286f8ba9afd5
+      internalID: -1847497870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5380e5a62ba3469e9de7bd01bd985
+      internalID: 1493798169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 138
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40c18aa9ac943409565994b8981071
+      internalID: -1380006642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 58
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba105470e12754ab4d902ef2f249c6
+      internalID: 1754374137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 110
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40809d64dc53f3e44bf830c85d0d33a3
+      internalID: 1882252808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 110
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f8ed66d346ae499cfb8af9f20b1cd
+      internalID: 1868919225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 107
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753684692f1b75a448024c0f20e4b055
+      internalID: 446267599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 106
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797382e160637024aaddb4cb01faac74
+      internalID: -1116980841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 99
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f787379b86c27c64ca1335623f8bf794
+      internalID: -127636188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ec77abca6f1b04aa70aaa352e18484
+      internalID: -1041101003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 88
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a29a89aa98bf3428d2f8f8ccb6f9dc
+      internalID: -330411212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 89
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891f8e428b1f9d3419fa901c11dc6f55
+      internalID: 865226700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 68
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee181303bb8c94ab9ef7e010698606
+      internalID: 1081821007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 77
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac9ea1938195d489cdaa5e77f8842a
+      internalID: -940235795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 65
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a715c6868ea2fd141969b3aef4dd0457
+      internalID: -2133487000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 34
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9692f5345c2ec468d66f11707af9c1
+      internalID: -983580275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 34
+        width: 88
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc756b1a4845e42a43ea083227f3cf
+      internalID: -950673693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platformer_Game_Tile_Set-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 34
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79397d6438605a84fa6be5cb954a6cae
+      internalID: -356969182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Platformer_Game_Tile_Set-removebg-preview_0: 579942832
+      Platformer_Game_Tile_Set-removebg-preview_1: 1955430855
+      Platformer_Game_Tile_Set-removebg-preview_10: 1524868778
+      Platformer_Game_Tile_Set-removebg-preview_11: 1690462249
+      Platformer_Game_Tile_Set-removebg-preview_12: 1779803879
+      Platformer_Game_Tile_Set-removebg-preview_13: -2087787281
+      Platformer_Game_Tile_Set-removebg-preview_14: -176207688
+      Platformer_Game_Tile_Set-removebg-preview_15: 506780005
+      Platformer_Game_Tile_Set-removebg-preview_16: -1685891942
+      Platformer_Game_Tile_Set-removebg-preview_17: -1733343015
+      Platformer_Game_Tile_Set-removebg-preview_18: 1476232289
+      Platformer_Game_Tile_Set-removebg-preview_19: -266347821
+      Platformer_Game_Tile_Set-removebg-preview_2: 1408102511
+      Platformer_Game_Tile_Set-removebg-preview_20: 249935845
+      Platformer_Game_Tile_Set-removebg-preview_21: 609507844
+      Platformer_Game_Tile_Set-removebg-preview_22: 874439206
+      Platformer_Game_Tile_Set-removebg-preview_23: 148568111
+      Platformer_Game_Tile_Set-removebg-preview_24: -1914082896
+      Platformer_Game_Tile_Set-removebg-preview_25: -1484631917
+      Platformer_Game_Tile_Set-removebg-preview_26: 418636654
+      Platformer_Game_Tile_Set-removebg-preview_27: 1486658666
+      Platformer_Game_Tile_Set-removebg-preview_28: 1019163693
+      Platformer_Game_Tile_Set-removebg-preview_29: 639979725
+      Platformer_Game_Tile_Set-removebg-preview_3: 245047980
+      Platformer_Game_Tile_Set-removebg-preview_30: 1856407830
+      Platformer_Game_Tile_Set-removebg-preview_31: -679845716
+      Platformer_Game_Tile_Set-removebg-preview_32: 780452918
+      Platformer_Game_Tile_Set-removebg-preview_33: -1131715365
+      Platformer_Game_Tile_Set-removebg-preview_34: 871717614
+      Platformer_Game_Tile_Set-removebg-preview_35: 991399102
+      Platformer_Game_Tile_Set-removebg-preview_36: -1847497870
+      Platformer_Game_Tile_Set-removebg-preview_37: 1493798169
+      Platformer_Game_Tile_Set-removebg-preview_38: -1380006642
+      Platformer_Game_Tile_Set-removebg-preview_39: 1754374137
+      Platformer_Game_Tile_Set-removebg-preview_4: -1443890197
+      Platformer_Game_Tile_Set-removebg-preview_40: 1882252808
+      Platformer_Game_Tile_Set-removebg-preview_41: 1868919225
+      Platformer_Game_Tile_Set-removebg-preview_42: 446267599
+      Platformer_Game_Tile_Set-removebg-preview_43: -1116980841
+      Platformer_Game_Tile_Set-removebg-preview_44: -127636188
+      Platformer_Game_Tile_Set-removebg-preview_45: -1041101003
+      Platformer_Game_Tile_Set-removebg-preview_46: -330411212
+      Platformer_Game_Tile_Set-removebg-preview_47: 865226700
+      Platformer_Game_Tile_Set-removebg-preview_48: 1081821007
+      Platformer_Game_Tile_Set-removebg-preview_49: -940235795
+      Platformer_Game_Tile_Set-removebg-preview_5: 1810001300
+      Platformer_Game_Tile_Set-removebg-preview_50: -2133487000
+      Platformer_Game_Tile_Set-removebg-preview_51: -983580275
+      Platformer_Game_Tile_Set-removebg-preview_52: -950673693
+      Platformer_Game_Tile_Set-removebg-preview_53: -356969182
+      Platformer_Game_Tile_Set-removebg-preview_54: -1925081491
+      Platformer_Game_Tile_Set-removebg-preview_6: 1369711104
+      Platformer_Game_Tile_Set-removebg-preview_7: 282653050
+      Platformer_Game_Tile_Set-removebg-preview_8: 997359610
+      Platformer_Game_Tile_Set-removebg-preview_9: -746193234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
