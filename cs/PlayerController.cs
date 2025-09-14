@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
@@ -19,32 +19,32 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        myTransform = GetComponent<Transform>();
-        mySprite = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
-            respawnPoint = transform.position; 
+    //     myTransform = GetComponent<Transform>();
+    //     mySprite = GetComponent<SpriteRenderer>();
+    //     rb = GetComponent<Rigidbody2D>();
+    //         respawnPoint = transform.position; 
 
-        UpdateHeartsUI();
+    //     UpdateHeartsUI();
 
-    }
+    // }
 
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
+    // void Update()
+    // {
+    //     if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+    //     {
 
-            mySprite.flipX = true;
-        }
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
+    //         mySprite.flipX = true;
+    //     }
+    //     else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+    //     {
 
-            mySprite.flipX = false;
-        }
+    //         mySprite.flipX = false;
+    //     }
 
 
 
-        rb.velocity = new Vector2(speed * Input.GetAxis("Horizontal") * Time.deltaTime, rb.velocity.y);
-        mySprite.flipX = (Input.GetAxis("Horizontal") < -0.01f);
+    //     rb.velocity = new Vector2(speed * Input.GetAxis("Horizontal") * Time.deltaTime, rb.velocity.y);
+    //     mySprite.flipX = (Input.GetAxis("Horizontal") < -0.01f);
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -60,21 +60,22 @@ public class PlayerController : MonoBehaviour
             LoseHeart();
         }
     }
+void LoseHeart()
+{
+    hearts--;
+    UpdateHeartsUI();
 
-    void LoseHeart()
+    if (hearts <= 0)
     {
-        hearts--;
-        UpdateHeartsUI();
-
-        if (hearts <= 0)
-        {
-            Debug.Log("Game Over!");
-        }
-        else
-        {
-            Respawn();
-        }
+        // إعادة تحميل نفس المستوى الحالي
+        string currentScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentScene);
     }
+    else
+    {
+        Respawn();
+    }
+}
 
     void Respawn()
     {
